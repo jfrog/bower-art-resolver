@@ -1,0 +1,22 @@
+{
+  "name": "bower-arti-resolver",
+  "version": "1.0.0",
+  "description": "The Artifactory Bower Resolver",
+  "main": "./lib/index.js",
+  "keywords": ["bower-resolver"],
+  "dependencies": {
+    "decompress-zip": "^0.2.0",
+    "graceful-fs": "^4.1.2",
+    "junk": "^1.0.2",
+    "mout": "~0.9.0",
+    "path": "*",
+    "q": "~1.0.1",
+    "request": "~2.42.0",
+    "request-progress": "^0.3.1",
+    "retry": "^0.6.1",
+    "semver": "^4.3.6",
+    "tar-fs": "^1.7.0",
+    "tmp": "0.0.26",
+    "url": "*"
+  }
+}
