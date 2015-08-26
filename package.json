@@ -1,5 +1,5 @@
 {
-  "name": "bower-arti-resolver",
+  "name": "bower-art-resolver",
   "version": "1.0.0",
   "description": "The Artifactory Bower Resolver",
   "main": "./lib/index.js",
