@@ -1,6 +1,6 @@
 {
   "name": "bower-art-resolver",
-  "version": "1.0.0",
+  "version": "1.9.0-beta",
   "description": "The Artifactory Bower Resolver",
   "main": "./lib/index.js",
   "keywords": ["bower-resolver"],
