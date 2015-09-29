@@ -33,7 +33,7 @@ For non Anonymous access:
 ```
 You can also use Artifactory encrypted password 
 
-## Artifactory Configuring 
+## Artifactory Configuration
 
 ### Bower remote repository
 1. Create a new remote repository and set Bower to be its Package Type, e.g. bower-remote
