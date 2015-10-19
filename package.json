@@ -1,9 +1,13 @@
 {
   "name": "bower-art-resolver",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The Artifactory Bower Resolver",
   "main": "./lib/index.js",
   "keywords": ["bower-resolver"],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/JFrogDev/bower-art-resolver.git"
+  },
   "dependencies": {
     "decompress-zip": "^0.2.0",
     "graceful-fs": "^4.1.2",
