@@ -10,27 +10,31 @@ In order to use Bower with Artifactory you need 2 components (npm packages):
 2. [bower](https://www.npmjs.com/package/bower) - Bower version 1.5.0 and above.
 
 ## Client Configuration
-Edit your ~/.bowerrc and add Artifactory Bower Resolver
+Edit your ~/.bowerrc and add:
+1. The *bower-art-resolver*.
+2. The Artifactory URL as the first search URL.
+
 ```json
 {
-  "resolvers": [
-    "bower-art-resolver"
-  ]
-}
-```
-Edit your ~/.bowerrc and point the registry to Artifactory:
-```json
-{
-  "registry": "http://<domain>/artifactory/api/bower/<bower-repo>"
+	"registry": {
+	  "register": "https://bower.herokuapp.com",
+	  "search": [
+		"http://<domain>/artifactory/api/bower/<bower-repo>"
+	  ]
+	},
+	"resolvers": [
+	  "bower-art-resolver"
+	]
 }
 ```
 
-For authenticatednon access
+For authenticated access, please add the user and password to Artifactory URL as follows:
 ```json
-{
-  "registry": "http://user:password@<domain>/artifactory/api/bower/<bower-repo>"
-}
+"search": [
+  "http://user:password@<domain>/artifactory/api/bower/<bower-repo>"
+]
 ```
+
 You can also use an encrypted Artifactory password.
 
 ## Artifactory Configuration
